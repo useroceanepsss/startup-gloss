@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-color: #fdf4f7;
+  font-family: Georgia, serif;
+  color: #4a3a45;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* ===== Bandeau d'accueil ===== */
+.hero {
+  background: linear-gradient(135deg, #f7c6d9, #c2678d);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin: 0 0 10px;
+}
+
+.slogan {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: white;
+  color: #7a2e4d;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Contenu ===== */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #c2678d;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  flex: 1 1 200px;
+  background-color: #fdf4f7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.item h3 {
+  color: #7a2e4d;
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #8a7a85;
+  font-size: 14px;
+}
